@@ -156,6 +156,12 @@ ul {
     color: var(--main-blue-color);
 }
 
+.icon-link {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+
 /* hero section */
 .hero {
     background-color: var(--footer-hero-background-color);
@@ -226,6 +232,16 @@ ul {
     gap: 30px;
 }
 
+.property-icon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: var(--ourteam-background-color);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 .property-item {
     max-width: 270px;
 }
@@ -255,8 +271,7 @@ ul {
 
 }
 
-.whatwedo-title,
-.ourteam-title {
+.title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -265,11 +280,10 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-black-color);
-}
-
-.whatwedo-title {
     margin-bottom: 50px;
 }
+
+
 
 .whatwedo-list {
     display: flex;
@@ -287,9 +301,7 @@ ul {
     background-color: var(--ourteam-background-color);
 }
 
-.ourteam-title {
-    margin-bottom: 50px;
-}
+
 
 .ourteam-list {
     display: flex;
@@ -300,7 +312,7 @@ ul {
 
 .ourteam-item {
     background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -330,6 +342,47 @@ ul {
     text-align: center;
     margin-bottom: 30px;
 }
+
+/* our clients */
+.our-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-list-item {
+    width: 170px;
+    height: 92px;
+
+}
+
+.clients-link {
+    display: flex;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-clients {
+    fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    color: red;
+    border-color: red;
+}
+
+
 
 /* footer */
 
@@ -423,7 +476,7 @@ ul {
 .filter-btn:focus {
     background-color: var(--main-blue-color);
     color: var(--main-white-coloor);
-    /* outline: solid 3px var(--logo-black-color); */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 .filter-list {
@@ -471,6 +524,13 @@ ul {
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     padding: 20px 24px 20px 24px;
+
+}
+
+.card-shadow:hover,
+.card-shadow:focus {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+
 
 }
 
